@@ -11,8 +11,8 @@ def initialize(parse)
 end
 
 def email(email)
-  email = email 
-end 
+  email = email
+end
 
 
 def parse(email)
@@ -20,4 +20,4 @@ def parse(email)
   array << @email.split(/[, ]/).uniq
 end
 
-end 
+end
