@@ -11,7 +11,7 @@ def initialize(parse)
 end
 
 def parse
-  @parse.split(/[, ]/).uniq
+  @parse.split(/,\s/).uniq
 end
 
 
