@@ -10,7 +10,6 @@ email_list = []
 
 def initialize(email)
   @email = email
-  email_list << email
 end
 
 def parse(email)
