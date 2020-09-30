@@ -18,4 +18,3 @@ def parse(email)
   email_list
 end
 end
-end
