@@ -7,7 +7,7 @@ class EmailAddressParser
 attr_accessor :email
 
 def initialize(email)
-  @email = emails
+  @email = email
 
 def parse(email)
   email_list = @email.split(/[, ]/).uniq
