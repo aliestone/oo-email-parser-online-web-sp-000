@@ -13,7 +13,7 @@ end
 array = []
 
 def parse
-  self.split(/,\s/).uniq
+  parse.split(/,\s/).uniq
 end
 
 
